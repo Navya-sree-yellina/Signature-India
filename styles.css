@@ -1083,11 +1083,57 @@ h1, h2, h3, h4, h5, h6 {
     
     .hamburger {
         display: flex;
+        position: absolute;
+        right: var(--spacing-md);
+        top: 50%;
+        transform: translateY(-50%);
     }
     
+    .nav-container {
+        justify-content: center;
+        position: relative;
+    }
+
+    .hero {
+        padding-top: 12rem;
+        padding-bottom: 6rem;
+    }
+
+    .hero-description {
+        width: 100%;
+        max-width: 100%;
+        font-size: 1.25rem;
+    }
+    
+    .nav-container {
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        display: flex;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+
+    .nav-logo-img {
+        height: 100px; /* Increased for better visibility */
+        margin: 0 auto;
+    }
+
+    .hamburger {
+        display: flex;
+        position: absolute;
+        right: var(--spacing-md);
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
     .nav-menu {
         position: fixed;
-        top: 70px;
+        top: 100px; /* Adjusted to match the larger logo height */
         left: -100%;
         flex-direction: column;
         background: var(--bg-overlay);
@@ -1101,6 +1147,29 @@ h1, h2, h3, h4, h5, h6 {
     
     .nav-menu.active {
         left: 0;
+    }
+
+    .hero {
+        padding: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+    }
+
+    .hero-content {
+        margin-top: 140px; /* Increased from 40px to lower the content */
+        z-index: 2;
+    }
+
+    .hero-description {
+        width: 100%;
+        max-width: 100%;
+        font-size: 1.25rem;
+        margin-top: 1rem;
+        text-align: center;
     }
     
     .section-title {
