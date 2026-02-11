@@ -1,0 +1,441 @@
+{
+  "categories": [
+    {
+      "id": "breakfast-dosa",
+      "name": "Breakfast & Dosa",
+      "description": "Traditional South Indian breakfast favorites",
+      "icon": "☕",
+      "image": "breakfast-dosa.jpg",
+      "items": [
+        {
+          "id": "masala-dosa",
+          "name": "Masala Dosa",
+          "description": "Crispy rice crepe filled with spiced potato filling",
+          "price": 8.99,
+          "category": "breakfast-dosa",
+          "vegetarian": true,
+          "popular": true
+        },
+        {
+          "id": "plain-dosa",
+          "name": "Plain Dosa",
+          "description": "Traditional crispy rice and lentil crepe",
+          "price": 6.99,
+          "category": "breakfast-dosa",
+          "vegetarian": true
+        },
+        {
+          "id": "idli-sambar",
+          "name": "Idli Sambar",
+          "description": "Steamed rice cakes served with lentil soup and chutney",
+          "price": 7.99,
+          "category": "breakfast-dosa",
+          "vegetarian": true
+        },
+        {
+          "id": "vada-sambar",
+          "name": "Medu Vada",
+          "description": "Crispy lentil donuts served with sambar and chutney",
+          "price": 7.99,
+          "category": "breakfast-dosa",
+          "vegetarian": true
+        },
+        {
+          "id": "upma",
+          "name": "Upma",
+          "description": "Savory semolina porridge with vegetables and spices",
+          "price": 6.99,
+          "category": "breakfast-dosa",
+          "vegetarian": true
+        },
+        {
+          "id": "pongal",
+          "name": "Pongal",
+          "description": "Comforting rice and lentil dish with black pepper and ghee",
+          "price": 7.99,
+          "category": "breakfast-dosa",
+          "vegetarian": true
+        }
+      ]
+    },
+    {
+      "id": "biryani-entrees",
+      "name": "Biryani & Entrees",
+      "description": "Aromatic rice dishes and traditional curries",
+      "icon": "🍛",
+      "image": "biryani-entrees.jpg",
+      "items": [
+        {
+          "id": "chicken-biryani",
+          "name": "Chicken Biryani",
+          "description": "Fragrant basmati rice layered with marinated chicken and aromatic spices",
+          "price": 15.99,
+          "category": "biryani-entrees",
+          "popular": true
+        },
+        {
+          "id": "mutton-biryani",
+          "name": "Mutton Biryani",
+          "description": "Tender lamb cooked with basmati rice and traditional spices",
+          "price": 17.99,
+          "category": "biryani-entrees"
+        },
+        {
+          "id": "veg-biryani",
+          "name": "Vegetable Biryani",
+          "description": "Mixed vegetables and basmati rice with aromatic spices",
+          "price": 13.99,
+          "category": "biryani-entrees",
+          "vegetarian": true
+        },
+        {
+          "id": "butter-chicken",
+          "name": "Butter Chicken",
+          "description": "Tender chicken in a rich, creamy tomato-based sauce",
+          "price": 16.99,
+          "category": "biryani-entrees",
+          "popular": true
+        },
+        {
+          "id": "lamb-rogan-josh",
+          "name": "Lamb Rogan Josh",
+          "description": "Slow-cooked lamb in a fragrant curry with Kashmiri spices",
+          "price": 18.99,
+          "category": "biryani-entrees"
+        },
+        {
+          "id": "paneer-tikka-masala",
+          "name": "Paneer Tikka Masala",
+          "description": "Grilled cottage cheese in a velvety spiced tomato gravy",
+          "price": 14.99,
+          "category": "biryani-entrees",
+          "vegetarian": true
+        },
+        {
+          "id": "dal-makhani",
+          "name": "Dal Makhani",
+          "description": "Black lentils slow-cooked with butter, cream, and aromatic spices",
+          "price": 12.99,
+          "category": "biryani-entrees",
+          "vegetarian": true
+        },
+        {
+          "id": "chettinad-chicken",
+          "name": "Chettinad Chicken",
+          "description": "Spicy South Indian chicken curry with roasted spices",
+          "price": 16.99,
+          "category": "biryani-entrees"
+        }
+      ]
+    },
+    {
+      "id": "appetizers-snacks",
+      "name": "Appetizers & Snacks",
+      "description": "Perfect starters and street food favorites",
+      "icon": "🥟",
+      "image": "appetizers-snacks.jpg",
+      "items": [
+        {
+          "id": "veg-pakora",
+          "name": "Veg Pakora",
+          "description": "Assorted vegetable fritters in seasoned chickpea batter, crispy and golden",
+          "category": "appetizers-snacks",
+          "vegetarian": true
+        },
+        {
+          "id": "onion-pakora",
+          "name": "Onion Pakora",
+          "description": "Thinly sliced onions coated in spiced gram flour batter and deep-fried to perfection",
+          "category": "appetizers-snacks",
+          "vegetarian": true
+        },
+        {
+          "id": "samosa",
+          "name": "Samosa",
+          "description": "Crispy triangular pastry filled with spiced potatoes and peas, a classic Indian snack",
+          "category": "appetizers-snacks",
+          "vegetarian": true,
+          "popular": true
+        },
+        {
+          "id": "cut-mirchi",
+          "name": "Cut Mirchi",
+          "description": "Sliced chili fritters stuffed with tangy spices, coated in chickpea batter and fried",
+          "category": "appetizers-snacks",
+          "vegetarian": true
+        },
+        {
+          "id": "andhra-mirchi-bajji",
+          "name": "Andhra Mirchi Bajji",
+          "description": "Traditional Andhra-style whole green chilies dipped in spiced batter and deep-fried",
+          "category": "appetizers-snacks",
+          "vegetarian": true
+        },
+        {
+          "id": "stuffed-mirchi-bajji",
+          "name": "Stuffed Mirchi Bajji",
+          "description": "Large green chilies stuffed with savory filling, battered and fried until crispy",
+          "category": "appetizers-snacks",
+          "vegetarian": true
+        },
+        {
+          "id": "punugulu",
+          "name": "Punugulu",
+          "description": "Crispy South Indian snack made from idli batter, deep-fried into golden balls",
+          "category": "appetizers-snacks",
+          "vegetarian": true
+        },
+        {
+          "id": "gobi-manchurian",
+          "name": "Gobi Manchurian",
+          "description": "Crispy cauliflower florets tossed in tangy Indo-Chinese sauce with garlic and ginger",
+          "category": "appetizers-snacks",
+          "vegetarian": true,
+          "popular": true
+        },
+        {
+          "id": "veg-manchurian",
+          "name": "Veg Manchurian",
+          "description": "Mixed vegetable dumplings in a savory Indo-Chinese sauce with soy and chili",
+          "category": "appetizers-snacks",
+          "vegetarian": true
+        },
+        {
+          "id": "mushroom-65",
+          "name": "Mushroom 65",
+          "description": "Spicy, crispy mushrooms marinated in South Indian spices and deep-fried",
+          "category": "appetizers-snacks",
+          "vegetarian": true
+        },
+        {
+          "id": "chilli-gobi",
+          "name": "Chilli Gobi",
+          "description": "Crispy cauliflower tossed with bell peppers, onions, and spicy chili sauce",
+          "category": "appetizers-snacks",
+          "vegetarian": true
+        },
+        {
+          "id": "chilli-paneer",
+          "name": "Chilli Paneer",
+          "description": "Cottage cheese cubes stir-fried with peppers and onions in spicy Indo-Chinese sauce",
+          "category": "appetizers-snacks",
+          "vegetarian": true,
+          "popular": true
+        },
+        {
+          "id": "gun-powder-idli",
+          "name": "Gun Powder Idli",
+          "description": "Steamed rice cakes tossed with fiery gun powder spice mix and ghee",
+          "category": "appetizers-snacks",
+          "vegetarian": true
+        },
+        {
+          "id": "masala-pepper-corn",
+          "name": "Masala Pepper Corn",
+          "description": "Sweet corn kernels sautéed with aromatic spices, peppers, and herbs",
+          "category": "appetizers-snacks",
+          "vegetarian": true
+        },
+        {
+          "id": "gobi-65",
+          "name": "Gobi 65",
+          "description": "Spicy cauliflower florets marinated in yogurt and South Indian spices, deep-fried",
+          "category": "appetizers-snacks",
+          "vegetarian": true
+        },
+        {
+          "id": "chilli-idli",
+          "name": "Chilli Idli",
+          "description": "Crispy fried idli pieces tossed with onions, peppers, and spicy chili sauce",
+          "category": "appetizers-snacks",
+          "vegetarian": true
+        },
+        {
+          "id": "chicken-65",
+          "name": "Chicken 65",
+          "description": "Spicy, deep-fried chicken marinated with curry leaves, yogurt, and South Indian spices",
+          "category": "appetizers-snacks",
+          "popular": true
+        },
+        {
+          "id": "chicken-pepper-fry",
+          "name": "Chicken Pepper Fry",
+          "description": "Tender chicken pieces stir-fried with crushed black pepper and aromatic spices",
+          "category": "appetizers-snacks"
+        },
+        {
+          "id": "chicken-manchurian",
+          "name": "Chicken Manchurian",
+          "description": "Crispy chicken dumplings in a tangy Indo-Chinese sauce with garlic and ginger",
+          "category": "appetizers-snacks"
+        },
+        {
+          "id": "caribbean-chicken",
+          "name": "Caribbean Chicken",
+          "description": "Succulent chicken marinated in tropical spices with a hint of sweetness and heat",
+          "category": "appetizers-snacks"
+        },
+        {
+          "id": "chicken-masakali",
+          "name": "Chicken Masakali",
+          "description": "Boneless chicken tossed in a flavorful masala with onions, peppers, and spices",
+          "category": "appetizers-snacks"
+        },
+        {
+          "id": "chilli-chicken",
+          "name": "Chilli Chicken",
+          "description": "Crispy chicken pieces stir-fried with bell peppers, onions, and spicy chili sauce",
+          "category": "appetizers-snacks",
+          "popular": true
+        },
+        {
+          "id": "lollipop-chicken",
+          "name": "Lollipop Chicken",
+          "description": "Chicken drumettes shaped like lollipops, marinated and fried to crispy perfection",
+          "category": "appetizers-snacks"
+        },
+        {
+          "id": "chicken-majestic",
+          "name": "Chicken Majestic",
+          "description": "Crispy chicken strips tossed in a creamy, spicy sauce with cashews and curry leaves",
+          "category": "appetizers-snacks"
+        },
+        {
+          "id": "curry-leaves-chicken",
+          "name": "Curry Leaves Chicken",
+          "description": "Tender chicken sautéed with fresh curry leaves, mustard seeds, and aromatic spices",
+          "category": "appetizers-snacks"
+        },
+        {
+          "id": "chilli-shrimp",
+          "name": "Chilli Shrimp",
+          "description": "Succulent shrimp stir-fried with peppers, onions, and spicy Indo-Chinese sauce",
+          "category": "appetizers-snacks"
+        },
+        {
+          "id": "shrimp-pepper-fry",
+          "name": "Shrimp Pepper Fry",
+          "description": "Juicy shrimp sautéed with crushed black pepper, curry leaves, and South Indian spices",
+          "category": "appetizers-snacks"
+        },
+        {
+          "id": "goat-sukka",
+          "name": "Goat Sukka",
+          "description": "Tender goat meat cooked dry with roasted spices, coconut, and curry leaves",
+          "category": "appetizers-snacks",
+          "popular": true
+        },
+        {
+          "id": "apollo-fish",
+          "name": "Apollo Fish",
+          "description": "Crispy fish fillets tossed in a tangy, spicy sauce with yogurt and special spices",
+          "category": "appetizers-snacks"
+        },
+        {
+          "id": "masala-fish",
+          "name": "Masala Fish",
+          "description": "Fish pieces marinated in aromatic masala spices and pan-fried to golden perfection",
+          "category": "appetizers-snacks"
+        }
+      ]
+    },
+    {
+      "id": "bakery",
+      "name": "Fresh Bakery",
+      "description": "Freshly baked breads and traditional sweets",
+      "icon": "🍞",
+      "image": "bakery.jpg",
+      "items": [
+        {
+          "id": "naan",
+          "name": "Naan Bread",
+          "description": "Soft, pillowy flatbread baked fresh in our tandoor oven",
+          "price": 3.99,
+          "category": "bakery",
+          "vegetarian": true
+        },
+        {
+          "id": "garlic-naan",
+          "name": "Garlic Naan",
+          "description": "Traditional naan topped with fresh garlic and cilantro",
+          "price": 4.49,
+          "category": "bakery",
+          "vegetarian": true,
+          "popular": true
+        },
+        {
+          "id": "butter-naan",
+          "name": "Butter Naan",
+          "description": "Soft naan brushed with melted butter",
+          "price": 4.29,
+          "category": "bakery",
+          "vegetarian": true
+        },
+        {
+          "id": "kulcha",
+          "name": "Kulcha",
+          "description": "Stuffed flatbread with your choice of potato, onion, or paneer",
+          "price": 4.99,
+          "category": "bakery",
+          "vegetarian": true
+        },
+        {
+          "id": "gulab-jamun",
+          "name": "Gulab Jamun",
+          "description": "Soft milk dumplings soaked in fragrant rose-cardamom syrup",
+          "price": 5.99,
+          "category": "bakery",
+          "vegetarian": true,
+          "popular": true
+        },
+        {
+          "id": "jalebi",
+          "name": "Jalebi",
+          "description": "Crispy, spiral-shaped sweets dipped in saffron sugar syrup",
+          "price": 6.49,
+          "category": "bakery",
+          "vegetarian": true
+        },
+        {
+          "id": "rasmalai",
+          "name": "Rasmalai",
+          "description": "Delicate cheese patties in sweetened, thickened milk with pistachios",
+          "price": 6.99,
+          "category": "bakery",
+          "vegetarian": true
+        },
+        {
+          "id": "kheer",
+          "name": "Kheer",
+          "description": "Traditional rice pudding with cardamom and nuts",
+          "price": 5.49,
+          "category": "bakery",
+          "vegetarian": true
+        }
+      ]
+    }
+  ],
+  "restaurant_info": {
+    "name": "Signature India",
+    "tagline": "Restaurant & Bakery",
+    "description": "Experience the rich flavors and timeless traditions of Indian cuisine. From aromatic curries to freshly baked delights, every dish tells a story.",
+    "phone": "+1 (234) 567-890",
+    "address": {
+      "street": "123 Spice Street",
+      "city": "Food City",
+      "state": "FC",
+      "zip": "12345"
+    },
+    "hours": {
+      "regular": "Mon - Sun: 11am - 10pm",
+      "special": "Biryani Night: Every Wednesday"
+    },
+    "stats": {
+      "years": "25+",
+      "fresh_ingredients": "100%",
+      "happy_customers": "10K+",
+      "signature_dishes": "50+",
+      "expert_chefs": "8"
+    }
+  }
+}
